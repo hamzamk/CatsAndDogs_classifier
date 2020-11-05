@@ -27,12 +27,12 @@ I highly recommend using anaconda virtual environment for this, or any python pr
 ## how to run
 follow the steps to run the project:
 
-Install anaconda (https://docs.anaconda.com/anaconda/install/)
-open anaconda terminal if you are using Windows (for MacOS & other Linux based distros use the terminal)
-Install git by running the following command from the anaconda terminal 'conda install -c anaconda git'
-clone this repository by entering 'git clone https://github.com/hamzamk/CatsAndDogs_classifier/'
-cd into the cloned directory(if you haven't)
-run the following command 'conda env create -f environment.yml' (https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
-activate the 'cats_dogs_classifier' environment by running the following command 'conda activate cats_dogs_classifier'
-run jupyter notebook by entering the following commdand 'jupyter notebook'
-locate the .ipynb file in the new browser tab which opened automatically and run the notebook
+1. Install anaconda (https://docs.anaconda.com/anaconda/install/)
+2. open anaconda terminal if you are using Windows (for MacOS & other Linux based distros use the terminal)
+3. Install git by running the following command from the anaconda terminal 'conda install -c anaconda git'
+4. clone this repository by entering 'git clone https://github.com/hamzamk/Sample_ClassData_generator/'
+5. cd into the cloned directory(if you haven't)
+6. run the following command 'conda env create -f environment.yml' (https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
+7. activate the 'cats_vs_dogs' environment by running the following command 'conda activate 'cats_vs_dogs'
+8. run jupyter notebook by entering the following commdand 'jupyter notebook'
+9. locate the .ipynb file in the new browser tab which opened automatically and run the notebook
