@@ -4,8 +4,8 @@ A binary classification problem for classifying cats and dogs. The project cover
 
 1. Checking data for imbalance and if necessary use augmentation using keras ImageDataGenerator
 2. Since dataset was a subset of data from kaggle for the original project, i downloaded further data from kaggle to balance the classes
-3. Script in kaggle_data_splitter creates train, validation, test split for the project and organizes the folders automatically
-4. To save memory the model uses .flow_from_directory method as .flow loads data to the memory. The data is loaded in batches to the GPU using a generator function.
+3. kaggle_data_splitter(check kaggle_data_splitte.py) function creates a train, validation, test split for the project and organizes the folders automatically
+4. To save memory the model uses .flow_from_directory method, as .flow loads data to the memory. The data is loaded in batches to the GPU using a generator function.
 5. The GPU memory allocation is further controlled using tensorflow .set_memory_growth method
 6. The images are resized to 224\*224 as the original images are of higher dimensions and a 1080ti was available, hence with enough VRAM
 7. The images are normalized using parameters rescale and further the channel axis is dropped, thus converting the images to grayscale. The batch size is set to 32 and shuffle is turned off for the test set, for consistency in results
