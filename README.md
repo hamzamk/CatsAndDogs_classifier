@@ -20,10 +20,7 @@ A binary classification problem for classifying cats and dogs. The project cover
 ![Screenshot](Confusion_matrix.png)
 ## Check csv file for results
 
-# Futurework
-Using Dimensionality reduction or clustering techniques such as PCA, t-SNE to cluster the data and run SVMs for classification, previwe at https://github.com/hamzamk/dimensionality_reduction/blob/master/Classification%20results%20t-SNE%20generated%20data%20%26%20ROC_AUC_TEST%20plots.ipynb
 
-![Screenshot](MNIST_TSNE.png)
 
 ## Flask Application
 1. A flask application is available which uses the trained model to predict on uploaded images
@@ -47,3 +44,9 @@ follow the steps to run the project:
 7. activate the 'cats_vs_dogs' environment by running the following command 'conda activate 'cats_vs_dogs'
 8. run jupyter notebook by entering the following commdand 'jupyter notebook'
 9. locate the .ipynb file in the new browser tab which opened automatically and run the notebook
+
+
+# Futurework
+Using Dimensionality reduction or clustering techniques such as PCA, t-SNE to cluster the data and run SVMs for classification, previwe at https://github.com/hamzamk/dimensionality_reduction/blob/master/Classification%20results%20t-SNE%20generated%20data%20%26%20ROC_AUC_TEST%20plots.ipynb
+
+![Screenshot](MNIST_TSNE.png)
