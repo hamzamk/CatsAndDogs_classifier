@@ -18,7 +18,12 @@ A binary classification problem for classifying cats and dogs. The project cover
 
 ## Check the model.py file for clean code and jupyter notebook for the entire thought process
 ![Screenshot](Confusion_matrix.png)
-![Screenshot](classification_report.csv)
+## Check csv file for results
+
+# Futurework
+Using Dimensionality reduction or clustering techniques such as PCA, t-SNE to cluster the data and run SVMs for classification
+![Screenshot](MNIST_TSNE.png)
+
 ## Flask Application
 1. A flask application is available which uses the trained model to predict on uploaded images
 2. Image uploaded is passed to a preprocessing function which resizes and reshapes the image as per required by the input layer of the model
