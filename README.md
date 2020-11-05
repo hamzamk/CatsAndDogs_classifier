@@ -21,7 +21,8 @@ A binary classification problem for classifying cats and dogs. The project cover
 ## Check csv file for results
 
 # Futurework
-Using Dimensionality reduction or clustering techniques such as PCA, t-SNE to cluster the data and run SVMs for classification
+Using Dimensionality reduction or clustering techniques such as PCA, t-SNE to cluster the data and run SVMs for classification, previwe at https://github.com/hamzamk/dimensionality_reduction/blob/master/Classification%20results%20t-SNE%20generated%20data%20%26%20ROC_AUC_TEST%20plots.ipynb
+
 ![Screenshot](MNIST_TSNE.png)
 
 ## Flask Application
