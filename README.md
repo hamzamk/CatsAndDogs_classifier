@@ -17,13 +17,14 @@ A binary classification problem for classifying cats and dogs. The project cover
 12. The final model is saved
 
 ## Check the model.py file for clean code and jupyter notebook for the entire thought process
-
+![Screenshot](Confusion_matrix.png)
 
 ## Flask Application
 1. A flask application is available which uses the trained model to predict on uploaded images
 2. Image uploaded is passed to a preprocessing function which resizes and reshapes the image as per required by the input layer of the model
 3. Then the image is passed to a prediction function which generated output as a one hot encoded list
 4. Using conditional statements outout is generated as a string 'cat' or 'dog'
+
 
 ## Installation Requirements
 I highly recommend using anaconda virtual environment for this, or any python project, since anaconda automatically configures the correct(conflict free) version numbers for python libraries. check the required imports in environment.yml file.
