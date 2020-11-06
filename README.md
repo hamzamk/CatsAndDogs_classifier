@@ -20,7 +20,7 @@ A binary classification problem for classifying cats and dogs. The project cover
 ![Screenshot](Confusion_matrix.png)
 ## Check csv file for results
 
-
+![Screenshot](tensorboard.PNG)
 
 ## Flask Application
 1. A flask application is available which uses the trained model to predict on uploaded images
